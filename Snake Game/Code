@@ -375,7 +375,7 @@ void loop() {
         button == 0; 
         while(button == 0){processInputs();}
         speedDelay = 100; 
-        
+         HScore = 0;
         newMatch();
         drawSnakeIni();
      }
